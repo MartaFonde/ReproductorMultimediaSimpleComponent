@@ -22,9 +22,13 @@ namespace FormTest
         public Form1()
         {
             InitializeComponent();
-            reprMultim.Estado = false;
+
             pathImagenes = new List<string>();
             this.Text = titulo;
+
+            reprMultim.XX = 0;
+            reprMultim.YY = 0;
+            reprMultim.Estado = false;
         }
 
         private void btn_Click(object sender, EventArgs e)
@@ -125,7 +129,7 @@ namespace FormTest
             if(pathImagenes.Count == 0)
             {
                 MessageBox.Show("No se encuentran imágenes en el directorio indicado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Text = titulo;
+                this.Text = titulo;                
             }
            
         }
