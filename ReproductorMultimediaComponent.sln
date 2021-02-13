@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReproductorMultimediaComponent", "ReproductorMultimediaComponent\ReproductorMultimediaComponent.csproj", "{57BCFCD7-EE99-4A04-9B48-214EDC87FA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormTest", "FormTest\FormTest.csproj", "{27D55D25-D1EF-437F-9B6D-2CF7FCAAF423}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57BCFCD7-EE99-4A04-9B48-214EDC87FA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BCFCD7-EE99-4A04-9B48-214EDC87FA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BCFCD7-EE99-4A04-9B48-214EDC87FA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BCFCD7-EE99-4A04-9B48-214EDC87FA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D55D25-D1EF-437F-9B6D-2CF7FCAAF423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D55D25-D1EF-437F-9B6D-2CF7FCAAF423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D55D25-D1EF-437F-9B6D-2CF7FCAAF423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D55D25-D1EF-437F-9B6D-2CF7FCAAF423}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA870E66-76F5-4852-97D2-74CCF862BDC9}
+	EndGlobalSection
+EndGlobal
