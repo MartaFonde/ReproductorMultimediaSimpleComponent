@@ -86,7 +86,7 @@ namespace ReproductorMultimediaComponent
         {
             get
             {
-                return txtlblTiempo;
+                return lblTiempo.Text;
             }
         }
 
@@ -111,6 +111,9 @@ namespace ReproductorMultimediaComponent
         public ReproductorMultimedia()
         {
             InitializeComponent();
+            XX = 0;
+            YY = 0;
+            Estado = false;
         }
 
     }
